@@ -1,0 +1,75 @@
+/*************************TAG selectors*******************************/
+span {
+  color: #a44d2c;
+}
+
+body {
+  background-color: #d3b8a0;
+  font-family: Courier New;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 0;
+  color: #363734;
+}
+
+img {
+  height: 350px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+  color: #363734;
+  font-style: normal;
+  font-weight: bold;
+}
+
+hr {
+  border: none;
+  border-top: 8px dotted #a44d2c;
+  width: 90%;
+  margin-top: 30px;
+}
+
+img:hover {
+  border-style: dotted;
+  border-color: #a44d2c;
+  border-radius: 50%;
+  height: 340px;
+}
+
+h1:hover {
+  font-size: 100px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #a44d2c;
+  background-color: #F5EFE6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #DFD3C3;
+  font-family: fantasy;
+  margin: 1em;
+}
+
+button:hover {
+  background-color: #D0B8A8;
+}
+
+button:active {
+  background-color: #D0B8A8;
+  box-shadow: 0 5px #7D6E83;
+  transform: translateY(4px);
+}
+
+footer {
+  font-family: cursive new;
+  margin-top: 2em;
+  text-align: center;
+}
